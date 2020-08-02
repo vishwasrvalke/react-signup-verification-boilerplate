@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Route, Switch, Redirect, useLocation } from 'react-router-dom';
-
 import { Role } from '@/_helpers';
 import { accountService } from '@/_services';
 import { Nav, PrivateRoute, Alert } from '@/_components';
